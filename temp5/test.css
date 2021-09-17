@@ -1,0 +1,95 @@
+body,
+ 
+      html {
+ 
+        height: 100%;
+ 
+        margin: 0;
+ 
+        font-family: Helvetica, sans-serif;
+ 
+      }
+ 
+      .image {
+ 
+        height: 50%;
+ 
+        background-position: center;
+ 
+        background-repeat: no-repeat;
+ 
+        background-size: cover;
+ 
+      }
+ 
+      .one {
+ 
+        background-color: aquamarine;
+ 
+      }
+ 
+      .two {
+ 
+        background-color: aqua;
+ 
+      }
+ 
+      .three {
+ 
+        background-color:azure;
+ 
+      }
+ 
+      .four {
+ 
+        background-color:beige;
+ 
+      }
+ 
+      .five {
+ 
+        background-image: url("https://sharepointanchor.com/wp-content/uploads/2021/09/5-scaled.jpg")
+ 
+      }
+ 
+      .six {
+ 
+        background-image: url("https://sharepointanchor.com/wp-content/uploads/2021/09/5-scaled.jpg")
+ 
+      }
+ 
+      .seven {
+ 
+        background-image: url("https://sharepointanchor.com/wp-content/uploads/2021/09/5-scaled.jpg")
+ 
+      }
+ 
+      .content {
+ 
+        background-color: rgba(0, 0, 0, 0.5);
+ 
+        color: #fff0c2;
+ 
+        font-weight: bold;
+ 
+        font-size: 60px;
+ 
+        border: 8px solid #000000;
+ 
+        position: fixed;
+ 
+        top: 50%;
+ 
+        left: 50%;
+ 
+        transform: translate(-50%, -50%);
+ 
+        z-index: 2;
+ 
+        width: 270px;
+ 
+        padding: 50px;
+ 
+        text-align: center;
+ 
+      }

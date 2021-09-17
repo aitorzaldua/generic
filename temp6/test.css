@@ -1,0 +1,8 @@
+body {
+  background-color: rgb(210,50,98);
+  min-height: 2000px;
+}
+section{
+min-height: 450px;
+  height: 100vh;
+}
