@@ -1,12 +1,17 @@
+"start": "webpack serve --open --mode developer"
+
 {
   "name": "generic",
   "version": "1.0.0",
   "description": "Generic website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production",
-    "start": "webpack serve --open --mode developer"
+    "start": "npm install -g serve; serve -s build",
+    "heroku-postbuild": "npm run build",
+    "postinstall": "npm run build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
