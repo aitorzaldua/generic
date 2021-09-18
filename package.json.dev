@@ -4,9 +4,9 @@
   "description": "Generic website",
   "main": "index.js",
   "scripts": {
-    
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
-    "start": "node server.js"
+    "start": "webpack serve --open --mode development"
   },
   "repository": {
     "type": "git",

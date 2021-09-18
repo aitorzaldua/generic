@@ -1,4 +1,3 @@
-"start": "webpack serve --open --mode developer"
 
 {
   "name": "generic",
